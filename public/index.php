@@ -199,17 +199,7 @@ $user = $stmt->fetchAll(PDO::FETCH_ASSOC)[0];
             document.querySelector('.login-trigger').click();
         }
     </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script>
-        $.ajax({
-            type:'POST',
-            url:'/postal.php?key=blanhf4uvw6&code=25019',
-            success:function(res){
-                console.log(res);
-            },
 
-        })
-    </script>
 </body>
 
 </html>
